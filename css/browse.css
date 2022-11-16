@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+.top{
+	position: absolute;
+	height: 80px;
+	width: 100vw;
+	background-color: #eb5e0b;
+}
+.cf{
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	top: 10px;
+	left: 10px;
+}
+/* .vr{
+	position: relative;
+	display: inline-block;
+	border-left: 4px solid #5eaaa8;
+	height: 60px;
+	left: 10px;
+} */
+.uName{
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	float: right;
+	right: 30px;
+	top: 15px;
+}
+.user{
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	float: right;
+	right: 45px;
+	top: 24px;
+}
+ul, li{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+.sidebar{
+	display: inline-block;
+	top: 80px;
+	position: relative;
+	width: 320px;
+	height: 100%;
+	left: 0px;
+	background-color: #a3d2ca;
+}
+.sidebar .text{
+	color: #000;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 70px;
+	text-align: center;
+	background-color: #5eaaa8;
+	letter-spacing: 2px;
+}
+nav ul{
+	height: 100%;
+	width: 100%;
+}
+nav ul li{
+	line-height: 50px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+nav ul li span{
+	position: relative;
+	font-size: 18px;
+	padding-left: 10px;
+	font-weight: 500;
+	display: block;
+	width: 100%;
+	border-left: 3px solid transparent;
+}
+nav ul li span:hover{
+	background-color: #5eaaa8;
+	border-left-color: #000;
+	font-size: 20px;
+	cursor: pointer;
+}
+nav ul ul{
+	position: static;
+	display: none;
+}
+nav ul .show{
+	display: block;
+}
+nav ul ul li{
+	line-height: 40px;
+	border-bottom: none;
+}
+nav ul ul li span{
+	font-size: 16px;
+	padding-left: 25px;
+}
+.down{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	font-size: 20px;
+}
+nav ul ul li span.active .down{
+	transform: translateY(-50%) rotate(-180deg);
+}
+.content{
+	position: absolute;
+	width: calc(100% - 350px);
+	display: inline-block;
+	left: 335px;
+	top: 100px;
+	border: 2px solid #000;
+}
+.course-link {
+	color: #000;
+	text-decoration: underline;
+	cursor: pointer;
+}

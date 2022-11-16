@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.box{
+	width: 500px;
+	height: 500px;
+	text-align: left;
+	background: #fff;
+	position: relative;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 30px 0px;
+	box-shadow: 0 0 15px 5px;
+}
+.top{
+	height: 80px;
+	width: 100%;
+	background-color: #eb5e0b;
+}
+.cf{
+	height: 70px;
+	top: 5px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.button{
+	display: block;
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	border: 2px solid #5eaaa8;
+	background-color: #a3d2ca;
+	color: #000;
+	padding: 18px 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 90px;
+	font-weight: 500;
+	transition: .3s linear;
+	text-decoration: none!important;
+}
+.button:hover{
+	background-color: #5eaaa8;
+	color: #fff;
+}
+@media screen and (max-width: 750px){
+	.box{
+		width: 100vw;
+		height: 100vh;
+		top: 0px!important;
+		left: 0px!important;
+		transform: none;
+		box-shadow: none;
+	}
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no, shrink-to-fit=no">
+		<title>Course Finder</title>
+		<link rel="stylesheet" href="../external/font-awesome-5.15.1/css/all.min.css">
+		<link rel="stylesheet" href="../external/bootstrap-4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../external/mdb-4.8.11/css/mdb.min.css">
+		<link rel="stylesheet" href="../external/mdb-4.8.11/css/addons/datatables.min.css">
+		<link rel="stylesheet" href="../css/browse.css">
+	</head>
+	<body>
+		<div class="top">
+			<img class = "cf" src = "../images/cf.png"></img>
+			<!-- <div class="vr"></div> -->
+			<div class="uName">Lorem Ipsum</div>
+			<i class="fas fa-user user"></i>
+		</div>
+		<nav class="sidebar">
+			<div class="text">Categories</div>
+			<ul>
+				<li>
+					<span class="btnn">Arts and Humanities<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="1">History</span></li>
+						<li><span  class="course-item" data-id="2">Music and Art</span></li>
+						<li><span  class="course-item" data-id="3">Philosophy</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Business<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="4">Leadership and Management</span></li>
+						<li><span  class="course-item" data-id="5">Finance</span></li>
+						<li><span  class="course-item" data-id="6">Marketing</span></li>
+						<li><span  class="course-item" data-id="7">Entrepreneurship</span></li>
+						<li><span  class="course-item" data-id="8">Business Essentials</span></li>
+						<li><span  class="course-item" data-id="9">Business Strategy</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Computer Science<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="10">Java</span></li>
+						<li><span  class="course-item" data-id="11">C++</span></li>
+						<li><span  class="course-item" data-id="12">Javascript</span></li>
+						<li><span  class="course-item" data-id="13">Blockchain</span></li>
+						<li><span  class="course-item" data-id="14">Linux</span></li>
+						<li><span  class="course-item" data-id="15">Agile</span></li>
+						<li><span  class="course-item" data-id="16">IOT</span></li>
+						<li><span  class="course-item" data-id="17">Scala</span></li>
+						<li><span  class="course-item" data-id="18">HTML</span></li>
+						<li><span  class="course-item" data-id="19">Data Structures</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Data Science<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="20">Python</span></li>
+						<li><span  class="course-item" data-id="21">Excel</span></li>
+						<li><span  class="course-item" data-id="22">Sql</span></li>
+						<li><span  class="course-item" data-id="23">Tableau</span></li>
+						<li><span  class="course-item" data-id="24">Big Data</span></li>
+						<li><span  class="course-item" data-id="25">TensorFlow</span></li>
+						<li><span  class="course-item" data-id="26">MATLAB</span></li>
+						<li><span  class="course-item" data-id="27">Deep Learning</span></li>
+						<li><span  class="course-item" data-id="28">Machine Learning</span></li>
+						<li><span  class="course-item" data-id="29">Artifical Intelligence</span></li>
+						<li><span  class="course-item" data-id="30">Statistics</span></li>
+						<li><span  class="course-item" data-id="31">IBM</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Information Technology<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="32">CyberSecurity</span></li>
+						<li><span  class="course-item" data-id="33">AWS</span></li>
+						<li><span  class="course-item" data-id="34">Google Cloud</span></li>
+						<li><span  class="course-item" data-id="35">SAP</span></li>
+						<li><span  class="course-item" data-id="36">Google</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Health<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="37">Animal Health</span></li>
+						<li><span  class="course-item" data-id="38">Basic Science</span></li>
+						<li><span  class="course-item" data-id="39">Health Informatics</span></li>
+						<li><span  class="course-item" data-id="40">Healthcare Management</span></li>
+						<li><span  class="course-item" data-id="41">Patient Care</span></li>
+						<li><span  class="course-item" data-id="42">Public Health</span></li>
+						<li><span  class="course-item" data-id="43">Research</span></li>
+						<li><span  class="course-item" data-id="44">Nutrition</span></li>
+						<li><span  class="course-item" data-id="45">Psychology</span></li>
+					</ul>
+				</li>
+				<li>
+					<span>Math and Logic</span>
+				</li>
+				<li>
+					<span>Personal Development</span>
+				</li>
+				<li>
+					<span class="btnn">Physical Science and Engineering<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="46">Electrical Engineering</span></li>
+						<li><span  class="course-item" data-id="47">Mechanical Engineering</span></li>
+						<li><span  class="course-item" data-id="48">Chemistry</span></li>
+						<li><span  class="course-item" data-id="49">Environmental Science and Sustainability</span></li>
+						<li><span  class="course-item" data-id="50">Physics and Astronomy</span></li>
+						<li><span  class="course-item" data-id="51">Research Methods</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Social Science<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="52">Economics</span></li>
+						<li><span  class="course-item" data-id="53">Education</span></li>
+						<li><span  class="course-item" data-id="54">Governance and Society</span></li>
+						<li><span  class="course-item" data-id="55">Law</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class="btnn">Language Learning<i class="fas fa-caret-down down"></i></span>
+					<ul class="open">
+						<li><span  class="course-item" data-id="56">Learning English</span></li>
+						<li><span  class="course-item" data-id="57">Other Languages</span></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="content"></div>
+		<!-- ************************************************************************************************ -->
+		<script type="text/javascript" src="../external/jquery-3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../external/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../external/font-awesome-5.15.1/js/all.min.js"></script>
+		<script type="text/javascript" src="../external/mdb-4.8.11/js/mdb.min.js"></script>
+		<script type="text/javascript" src="../external/mdb-4.8.11/js/addons/datatables.min.js"></script>
+		<script type="text/javascript" src="../external/jquery-3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/browse.js"></script>
+	</body>
+</html>

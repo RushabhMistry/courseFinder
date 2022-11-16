@@ -1,0 +1,16 @@
+{
+	"STATUS_CODES": {
+		"OK": "100",
+		"DUPLICATE_USER": "101",
+		"DATA_ADD_ERROR": "102",
+		"INVALID_USER": "103",
+		"INVALID_TOKEN": "104"
+	},
+	"STATUS_CODES_R": {
+		"100": "OK",
+		"101": "Duplicate user.",
+		"102": "Could not add data.",
+		"103": "Invalid user. Please try again.",
+		"104": "Invalid user access token. User not recognized. Please re-login."
+	}
+}
